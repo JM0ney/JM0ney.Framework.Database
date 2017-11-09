@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("JM0ney.Framework.Database")]
-[assembly: AssemblyDescription( "Persists objects that implement interfaces and inherit from classes in JM0ney.Framework.Data." )]
+[assembly: AssemblyDescription( "Persists objects that implement interfaces and inherit from classes in JM0ney.Framework.Data to a database." )]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany( "Jason Iverson Consulting" )]
 [assembly: AssemblyProduct("JM0ney.Framework.Database")]
