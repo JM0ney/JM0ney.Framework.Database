@@ -136,7 +136,7 @@ namespace JM0ney.Framework.Database.SqlServer {
                 }
             }
 
-            return String.Format( "[{0}].[{1}{2}{3}{4}]", dataObj.Metadata.DataObjectSchemaName, StoredProcedureNamePrefixSettingName, dataObjName, action, tailEnd );
+            return String.Format( "[{0}].[{1}{2}{3}{4}]", dataObj.Metadata.DataObjectSchemaName, StoredProcedureNamePrefix, dataObjName, action, tailEnd );
         }
 
         public static String PrepareCommandText( Data.IDataObjectMapping dataObjectMapping ) {
