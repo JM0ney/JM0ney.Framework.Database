@@ -49,7 +49,7 @@ namespace JM0ney.Framework.Database.SqlServer {
             }
             else {
                 List<TDataObject> returnObjs = new List<TDataObject>( );
-                for(int i = 0; i < readResult.ReturnValue.Tables[0].Rows.Count - 1; i++ ) {
+                for(int i = 0; i < readResult.ReturnValue.Tables[0].Rows.Count; i++ ) {
                     TDataObject dataObj = new TDataObject( );
                     dataObj.Adapter = this;
                     dataObj.Load( prefix, false, 0, i, readResult.ReturnValue );
